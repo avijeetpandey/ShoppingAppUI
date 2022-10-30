@@ -13,6 +13,9 @@
 		DCC4D6E6290E44C500B78C94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC4D6E5290E44C500B78C94 /* Preview Assets.xcassets */; };
 		DCC4D6EF290E461D00B78C94 /* OnboardingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4D6EE290E461D00B78C94 /* OnboardingScreenView.swift */; };
 		DCC4D6F2290E464F00B78C94 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4D6F1290E464F00B78C94 /* HomeScreen.swift */; };
+		DCC4D6F5290E4C6F00B78C94 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4D6F4290E4C6F00B78C94 /* ImageData.swift */; };
+		DCC4D6F7290E4C8700B78C94 /* NearYouData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4D6F6290E4C8700B78C94 /* NearYouData.swift */; };
+		DCC4D6F9290E4E2400B78C94 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4D6F8290E4E2400B78C94 /* FruitCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		DCC4D6E5290E44C500B78C94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DCC4D6EE290E461D00B78C94 /* OnboardingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreenView.swift; sourceTree = "<group>"; };
 		DCC4D6F1290E464F00B78C94 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		DCC4D6F4290E4C6F00B78C94 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		DCC4D6F6290E4C8700B78C94 /* NearYouData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearYouData.swift; sourceTree = "<group>"; };
+		DCC4D6F8290E4E2400B78C94 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,7 @@
 		DCC4D6DD290E44C400B78C94 /* ShoppingAppUI */ = {
 			isa = PBXGroup;
 			children = (
+				DCC4D6F3290E4C6500B78C94 /* Model */,
 				DCC4D6EC290E460800B78C94 /* Views */,
 				DCC4D6DE290E44C400B78C94 /* ShoppingAppUIApp.swift */,
 				DCC4D6E0290E44C400B78C94 /* ContentView.swift */,
@@ -93,8 +100,18 @@
 			isa = PBXGroup;
 			children = (
 				DCC4D6F1290E464F00B78C94 /* HomeScreen.swift */,
+				DCC4D6F8290E4E2400B78C94 /* FruitCardView.swift */,
 			);
 			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		DCC4D6F3290E4C6500B78C94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCC4D6F4290E4C6F00B78C94 /* ImageData.swift */,
+				DCC4D6F6290E4C8700B78C94 /* NearYouData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,8 +185,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCC4D6F2290E464F00B78C94 /* HomeScreen.swift in Sources */,
+				DCC4D6F7290E4C8700B78C94 /* NearYouData.swift in Sources */,
 				DCC4D6E1290E44C400B78C94 /* ContentView.swift in Sources */,
 				DCC4D6EF290E461D00B78C94 /* OnboardingScreenView.swift in Sources */,
+				DCC4D6F9290E4E2400B78C94 /* FruitCardView.swift in Sources */,
+				DCC4D6F5290E4C6F00B78C94 /* ImageData.swift in Sources */,
 				DCC4D6DF290E44C400B78C94 /* ShoppingAppUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
