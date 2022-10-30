@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DCB10C1D290E6B9500C6C453 /* TopSellingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB10C1C290E6B9500C6C453 /* TopSellingView.swift */; };
+		DCB10C1F290E6CD200C6C453 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB10C1E290E6CD200C6C453 /* DetailsView.swift */; };
 		DCC4D6DF290E44C400B78C94 /* ShoppingAppUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4D6DE290E44C400B78C94 /* ShoppingAppUIApp.swift */; };
 		DCC4D6E1290E44C400B78C94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4D6E0290E44C400B78C94 /* ContentView.swift */; };
 		DCC4D6E3290E44C500B78C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC4D6E2290E44C500B78C94 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DCB10C1C290E6B9500C6C453 /* TopSellingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSellingView.swift; sourceTree = "<group>"; };
+		DCB10C1E290E6CD200C6C453 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		DCC4D6DB290E44C400B78C94 /* ShoppingAppUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingAppUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC4D6DE290E44C400B78C94 /* ShoppingAppUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingAppUIApp.swift; sourceTree = "<group>"; };
 		DCC4D6E0290E44C400B78C94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 			children = (
 				DCC4D6F1290E464F00B78C94 /* HomeScreen.swift */,
 				DCC4D6F8290E4E2400B78C94 /* FruitCardView.swift */,
+				DCB10C1C290E6B9500C6C453 /* TopSellingView.swift */,
+				DCB10C1E290E6CD200C6C453 /* DetailsView.swift */,
 			);
 			path = HomeScreen;
 			sourceTree = "<group>";
@@ -186,7 +192,9 @@
 			files = (
 				DCC4D6F2290E464F00B78C94 /* HomeScreen.swift in Sources */,
 				DCC4D6F7290E4C8700B78C94 /* NearYouData.swift in Sources */,
+				DCB10C1F290E6CD200C6C453 /* DetailsView.swift in Sources */,
 				DCC4D6E1290E44C400B78C94 /* ContentView.swift in Sources */,
+				DCB10C1D290E6B9500C6C453 /* TopSellingView.swift in Sources */,
 				DCC4D6EF290E461D00B78C94 /* OnboardingScreenView.swift in Sources */,
 				DCC4D6F9290E4E2400B78C94 /* FruitCardView.swift in Sources */,
 				DCC4D6F5290E4C6F00B78C94 /* ImageData.swift in Sources */,

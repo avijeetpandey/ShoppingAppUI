@@ -10,7 +10,7 @@ import Foundation
 // MARK: - Fruit Title Enum
 enum fruitTitle: String {
     case apple
-    case appricot
+    case apricot
     case banana
     case avocado
     case blackberry
@@ -27,7 +27,7 @@ enum fruitTitle: String {
     case pineapple
     case plum
     case raspberry
-    case strawberry
+    case strawbery
     case watermelon
     case orange
 }

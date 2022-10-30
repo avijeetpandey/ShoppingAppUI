@@ -7,12 +7,6 @@
 
 import SwiftUI
 
-let images: FruitModel = .init(id: 1,
-                               title: .orange,
-                               image: "apple",
-                               price: "$3.49",
-                               color: "1")
-
 struct FruitCardView: View {
     let fruits: FruitModel
     var body: some View {
@@ -37,11 +31,6 @@ struct FruitCardView: View {
                 .frame(width: 150, height: 110)
                 .offset(y: 60)
         }.frame(width: 175, height: 250, alignment: .center)
-    }
-}
-
-struct FruitCardView_Previews: PreviewProvider {
-    static var previews: some View {
-        FruitCardView(fruits: images)
+            .shadow(color: .gray, radius: 5, x: 5, y: 5)
     }
 }
