@@ -11,6 +11,8 @@
 		DCC4D6E1290E44C400B78C94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4D6E0290E44C400B78C94 /* ContentView.swift */; };
 		DCC4D6E3290E44C500B78C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC4D6E2290E44C500B78C94 /* Assets.xcassets */; };
 		DCC4D6E6290E44C500B78C94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC4D6E5290E44C500B78C94 /* Preview Assets.xcassets */; };
+		DCC4D6EF290E461D00B78C94 /* OnboardingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4D6EE290E461D00B78C94 /* OnboardingScreenView.swift */; };
+		DCC4D6F2290E464F00B78C94 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4D6F1290E464F00B78C94 /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		DCC4D6E0290E44C400B78C94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DCC4D6E2290E44C500B78C94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCC4D6E5290E44C500B78C94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCC4D6EE290E461D00B78C94 /* OnboardingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreenView.swift; sourceTree = "<group>"; };
+		DCC4D6F1290E464F00B78C94 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		DCC4D6DD290E44C400B78C94 /* ShoppingAppUI */ = {
 			isa = PBXGroup;
 			children = (
+				DCC4D6EC290E460800B78C94 /* Views */,
 				DCC4D6DE290E44C400B78C94 /* ShoppingAppUIApp.swift */,
 				DCC4D6E0290E44C400B78C94 /* ContentView.swift */,
 				DCC4D6E2290E44C500B78C94 /* Assets.xcassets */,
@@ -65,6 +70,31 @@
 				DCC4D6E5290E44C500B78C94 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCC4D6EC290E460800B78C94 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCC4D6F0290E463800B78C94 /* HomeScreen */,
+				DCC4D6ED290E460D00B78C94 /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DCC4D6ED290E460D00B78C94 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				DCC4D6EE290E461D00B78C94 /* OnboardingScreenView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		DCC4D6F0290E463800B78C94 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DCC4D6F1290E464F00B78C94 /* HomeScreen.swift */,
+			);
+			path = HomeScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC4D6F2290E464F00B78C94 /* HomeScreen.swift in Sources */,
 				DCC4D6E1290E44C400B78C94 /* ContentView.swift in Sources */,
+				DCC4D6EF290E461D00B78C94 /* OnboardingScreenView.swift in Sources */,
 				DCC4D6DF290E44C400B78C94 /* ShoppingAppUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

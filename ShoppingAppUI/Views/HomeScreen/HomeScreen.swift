@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  HomeScreen.swift
 //  ShoppingAppUI
 //
 //  Created by Avijeet Pandey on 30/10/22.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeScreen: View {
     var body: some View {
-       OnboardingScreenView()
+        Text("Home screen view")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HomeScreen_Previews: PreviewProvider {
     static var previews: some View {
-        OnboardingScreenView()
+        HomeScreen()
     }
 }
